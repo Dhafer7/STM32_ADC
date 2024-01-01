@@ -1,0 +1,34 @@
+
+#define LED 7
+void setup()
+{
+  Serial.begin(9600); 
+  pinMode(LED,OUTPUT); 
+
+}
+
+
+void loop()
+{ 
+  char data_rcvd=0;
+  
+  if(Serial.available())
+  {
+     data_rcvd = Serial.read(); 
+     Serial.print(data_rcvd);
+     if(data_rcvd=='B')
+     {
+            digitalWrite(LED,HIGH);
+            delay(500);
+            digitalWrite(LED,LOW);
+            delay(500);
+            
+     }
+     else 
+     {
+        digitalWrite(LED,LOW);
+     }
+  }
+  
+ 
+}

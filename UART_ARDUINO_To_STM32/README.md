@@ -4,5 +4,5 @@
 <br>/
 <br>/****WIRING****/
 <br>  PIND12 (STM32) ====> LED 
-<br>  Tx   (ARDUINO) ====> PD6 (STM32)
+<br>  Tx   (ARDUINO) ====> PA3 (STM32)
 <br>  GND  (ARDUINO) ====> GND (STM32)

@@ -1,4 +1,4 @@
-/In this mini-project, I have made a simplex communication between STM32F407-VG and ARDUINO UNO to transmit a character (STM --> ARDUINO).
+/In this mini-project, I have made a simplex communication between STM32F407-VG and ARDUINO UNO to transmit one character (STM --> ARDUINO).
 <br>/The orange LED will blink if the message has been received succefully.
 <br>/
 <br>/
